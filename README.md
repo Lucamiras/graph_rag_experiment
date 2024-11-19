@@ -13,17 +13,20 @@ Before you begin, make sure you have the following installed on your system:
 1. **Clone the Repository**
    First, clone the repository from GitHub to your local machine. Open your terminal and run:
    ```sh
-   git clone https://github.com/Lucamiras/graph_rag_experiment.git```
+   git clone https://github.com/Lucamiras/graph_rag_experiment.git
+   ```
 
 2. **Navigate to local repository**
    Navigate to your local repository using the interface or via the terminal:
    ```sh
-   cd repository-name```
+   cd repository-name
+   ```
 
 3. **Install requirements**
    Install dependencies from the requirements.txt file:
    ```sh
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
 
 4. **Insert a text**
    Open `src/globals.py` and place a text to parse into the `text` variable.
