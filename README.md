@@ -7,6 +7,8 @@ This code does the following:
 - Return nodes and edges as a `RelationshipModel` object
 - Visualize the output using the networkx library and matplotlib
 
+['alt text'](james_bond_example.jpg)
+
 ## Try it out
 Before you begin, make sure you have the following installed on your system:
 
