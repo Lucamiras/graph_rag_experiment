@@ -30,10 +30,21 @@ Before you begin, make sure you have the following installed on your system:
    pip install -r requirements.txt
    ```
 
-4. **Insert a text**
+4. **Add API key or download local model**
+   You can use an OpenAI API key by creating a .env file in the root directory of the cloned repository and adding the key there, or by downloading and installing Ollama and pulling the model you wish to use.
+   Make sure to reference the right model in the main.py file.
+   ```python
+   llm = ChatOpenAI(model='gpt-4o-mini')
+   ```
+   or
+   ```python
+   llm = ChatOllama(model='llama3.1')
+   ```
+   
+5. **Insert a text**
    Open `src/globals.py` and place a text to parse into the `text` variable.
 
-5. **Run main file**
+6. **Run main file**
    Run the main file:
    ```sh
    python main.py
